@@ -22,7 +22,7 @@ class CreateCompaniesTable extends Migration
             $table->string('month_period',2);
             $table->string('year_period',4);
             $table->string('information',100)->nullable();
-            $table->integer('user_id')->unsigned();
+            $table->integer('user_id')->unsigned()->nullable();
             $table->timestamps();
         });
     }
