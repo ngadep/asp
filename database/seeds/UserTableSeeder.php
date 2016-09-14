@@ -23,5 +23,10 @@ class UserTableSeeder extends Seeder
         foreach ($users as $user) {
 	        DB::table('users')->insert($user);
         }
+
+        DB::table('company_user')->insert([
+            "company_id" => "1",
+            "user_id"    => "1"
+        ]);
     }
 }

@@ -14,6 +14,7 @@ class CreateJournalHistoriesTable extends Migration
     {
         Schema::create('journal_histories', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('company_id')->unsigned();
             $table->integer('account_id')->unsigned();
             $table->string('month',2);
             $table->string('year',4);

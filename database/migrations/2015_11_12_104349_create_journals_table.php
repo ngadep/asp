@@ -14,6 +14,7 @@ class CreateJournalsTable extends Migration
     {
         Schema::create('journals', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('company_id')->unsigned();
             $table->string('reference',50);
             $table->string('description',150);
             $table->integer('year');
