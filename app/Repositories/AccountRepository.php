@@ -1,10 +1,10 @@
 <?php
-namespace Akuntansi\Repositories;
+namespace App\Repositories;
 
-use Akuntansi\Models\Account;
-use Akuntansi\Models\Category;
-use Akuntansi\Models\Company;
-use Akuntansi\Models\JournalHistory;
+use App\Models\Account;
+use App\Models\Category;
+use App\Models\Company;
+use App\Models\JournalHistory;
 
 class AccountRepository
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Akuntansi\Repositories;
+namespace App\Repositories;
 
-use Akuntansi\Models\Company;
-use Akuntansi\Models\Journal;
-use Akuntansi\Models\JournalDetail;
+use App\Models\Company;
+use App\Models\Journal;
+use App\Models\JournalDetail;
 
 class JournalRepositoy
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Akuntansi\Models;
+namespace App\Models;
 
-use Akuntansi\User;
+use App\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Company extends Model
